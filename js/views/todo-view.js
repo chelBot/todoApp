@@ -65,9 +65,10 @@ var app = app || {};
 				app.TodoFilter === 'completed';
 		},
 
-		// Toggle the `"completed"` state of the model.
+		//Toggle the `"completed"` state of the model.
 		toggleCompleted: function () {
 			this.model.toggle();
+			
 		},
 
 		// Switch this view into `"editing"` mode, displaying the input field.
